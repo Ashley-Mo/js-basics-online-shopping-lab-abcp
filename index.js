@@ -9,12 +9,23 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
- // write your code here
+ 
+function addToCart(itemName) {
+  var itemPrice=Math.floor((Math.random()*100));
+  var newcart=new Object();
+  newcart.itemName=itemPrice;
+  cart.push(newcart);
+  console.log(itemName +" item has been added to your cart");
+  return cart;
+
 }
 
+
+
 function viewCart() {
-  // write your code here
+
+  
+  //In your cart, you have bananas at $17, pancake batter at $5, and eggs at $49.
 }
 
 function total() {
