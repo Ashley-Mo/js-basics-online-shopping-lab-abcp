@@ -33,5 +33,5 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
- delete card[cardNumber];
+ delete cart[cardNumber];
 }
